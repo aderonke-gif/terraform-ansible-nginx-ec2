@@ -14,6 +14,14 @@ This project provisions an AWS EC2 instance using **Terraform**, then configures
 - **Ansible** – Configuration Management
 - **AWS EC2** – Virtual server
 - **Ubuntu** – Operating System
+- 
+- terraform-nginx-setup/
+├── ansible/
+│ ├── inventory # Ansible inventory with EC2 IP and SSH key path
+│ └── playbook.yml # Nginx install and custom index.html deployment
+├── *.tf # Terraform configuration files
+├── key1.pem # Private key to SSH into EC2 (not to be committed)
+└── README.md
 
 ---
 

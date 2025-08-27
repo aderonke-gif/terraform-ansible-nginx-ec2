@@ -19,3 +19,15 @@ This project provisions an AWS EC2 instance using **Terraform**, then configures
 
 ## Project Structure
 
+terraform-nginx-setup/
+├── ansible/
+│   ├── inventory
+│   └── playbook.yml
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── README.md
+└── key1.pem
+
+

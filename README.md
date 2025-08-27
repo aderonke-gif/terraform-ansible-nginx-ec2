@@ -39,3 +39,22 @@ terraform-nginx-setup/
 └── key1.pem
 
 
+---
+
+## 🔧 Setup Instructions
+
+### 1. ✅ Prerequisites
+
+- Terraform installed
+- Ansible installed (in WSL or Linux environment)
+- AWS CLI configured
+- SSH key (`key1.pem`) downloaded
+
+### 2. 🌍 Provision Infrastructure
+
+```bash
+terraform init
+terraform apply
+
+
+
